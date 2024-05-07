@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "tp5",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/app2.dart" // Add the program attribute and specify the entry point file
+        },
+        {
+            "name": "tp5 (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/app2.dart" // Add the program attribute and specify the entry point file
+        },
+        {
+            "name": "tp5 (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/app2.dart" // Add the program attribute and specify the entry point file
+        }
+    ]
+}
